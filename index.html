@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dream Destation</title>
+    
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="#"><img src="logo.png" alt=""></a></div>
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="Menu.html">Services</a></li>
+                <li><a href="Franchise.html">Packages</a></li>
+                <li><a href="Gallery.html">Blog</a></li>
+                <li><a href="Contact.html">Contact us</a></li>
+            </ul>
+            <a href="#" class="action_btn"><i class="fa-solid fa-phone"></i>Call Now</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="dropdown_menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="Menu.html">Services</a></li>
+            <li><a href="Franchise.html">Packages</a></li>
+            <li><a href="Gallery.html">Blog</a></li>
+            <li><a href="Contact.html">Contact us</a></li>
+            <li><a href="#" class="action_btn">Call Now</a></li>
+        </div>
+    </header>
+
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleBtnIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+        }
+    </script>
+
+<section class="section-Menu">
+    <div class="container">
+        <h2></h2>
+        <p></p>
+    </div>
+
+    <div class="container grid grid-three--cols">
+        <div class="item-div">
+            <div class="item-image"><img src="https://blog.thomascook.in/wp-content/uploads/2017/09/shutterstock_379283767-Medium-1-e1505109511961.jpg" alt="">
+            </div>
+            <a class="section-common--title"></a>
+        </div>
+        <div class="item-div">
+            <div class="item-image"><img src="https://blog.thomascook.in/wp-content/uploads/2017/09/kashmir_shutterstock_123558250-Medium-e1505109080611.jpg" alt="">
+            </div>
+            <a class="section-common--title"></a>
+        </div>
+        <div class="item-div">
+            <div class="item-image"><img src="https://www.thomascook.in/blog/wp-content/uploads/2017/09/amritsar-e1525166888469.jpg" alt="">
+            </div>
+            <a class="section-common--title"></a>
+        </div>
+        <div class="item-div">
+            <div class="item-image"><img src="https://www.thomascook.in/blog/wp-content/uploads/2017/09/img-9-e1525174287569.jpg" alt="">
+            </div>
+            <a class="section-common--title"></a>
+        </div>
+        <div class="item-div">
+            <div class="item-image"><img src="https://www.thomascook.in/blog/wp-content/uploads/2017/09/New-Delhi-e1525167110925.jpg" alt="">
+            </div>
+            <a class="section-common--title"></a>
+        </div>
+        <div class="item-div">
+            <div class="item-image"><img src="https://www.thomascook.in/blog/wp-content/uploads/2017/09/New-Delhi-e1525167110925.jpg" alt="">
+            </div>
+            <a class="section-common--title"></a>
+        </div>
+    </div>
+    
+</section>
+
+
+
+<footer>
+    <div class="container grid ">
+        <div class="footer-1--div">
+            <div class="logo-brand">
+                <a href="index.html" class="footer-subheading">VISION</a>
+            </div>
+            <p>Well, we have just launched our first outlet of Mast Marathi @ MM Maharashtra with a vision to open
+                many more branches in Maharashtra and across India.</p>
+
+
+            <div class="social-footer--icons">
+                <a href="https://discord.gg" target="_blank" alt="my discord server link">
+                    <i class="fa-brands fa-discord"></i>
+                </a>
+                <a href="https://www.youtube.com" target="_blank" alt="my youtube channel link">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" alt="my instagram profile link">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="footer-2--div">
+            <p> <a href="#" class="footer-subheading">CONTACT US</a> </p>
+            <div class="address">
+                <p>Address : Site No. 1, Ground Floor </p>
+                <p>18th Main Rd,</p>
+                <p>adjacent to Sri Shirdi Saibaba Mandir,</p>
+                <p>Sector 3,Maharashtra.</p>
+            </div>
+        </div>
+
+
+        <div class="footer-3--div">
+            <p> <a href="#" class="footer-subheading">Home</a> </p>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="Menu.html">Services</a></li>
+            <li><a href="Franchise.html">Packages</a></li>
+            <li><a href="Gallery.html">Blog</a></li>
+            <li><a href="Contact.html">Contact us</a></li>
+            <li><a href="#" class="action_btn">Call Now</a></li>
+            </ul>
+
+        </div>
+
+        <div class="footer-4--div">
+            <p> <a href="#" class="footer-subheading">Opening time</a> </p>
+            <div class="grid ">
+
+                <div class="days">
+                    <p>Mon - Fri</p>
+                    <p>Saturday</p>
+                    <p>Sunday</p>
+                </div>
+                <div class="timing">
+                    <p>08:30 AM --- 10:30 PM</p>
+                    <p>08:30 AM --- 10:30 PM</p>
+                    <p>08:30 AM --- 10:30 PM</p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+</footer>
+
+</body>
+
+</html>
